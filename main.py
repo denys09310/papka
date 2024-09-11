@@ -12,7 +12,7 @@ class MyApp(App):
 
     def build(self):
         text = Label(text='Hello world')
-        btn = Button(text ='fjgsfbcdvyugzjbutydjybryzejr', size_hint = (1, None), height = '30sp')
+        btn = Button(text ='xsytcuv', size_hint = (1, None), height = '30sp')
         btn.on_press = self.click
         col = BoxLayout(orientation = "vertical", size_hint = (0.8,0.8), pos_hint = {'center_x': 0.5, 'center_y' : 0.5})
         col.add_widget(text)
